@@ -1,4 +1,6 @@
-# DEPI - Intelligent Career Advisor and Job Application Platform <br> Data Analytics Team
+<h1 align="center">
+  DEPI - Career Advisor and Job Application Platform <br> Data Analytics Team
+</h1>
 
 ## 🎯 Our Role
 We are responsible for **collecting, processing, and transforming job market data into actionable insights** that support:
@@ -7,7 +9,6 @@ We are responsible for **collecting, processing, and transforming job market dat
 - Validation of AI-driven recommendations.
 - Integration of insights into the platform to guide career decisions.
 
----
 
 ## ⚙️ Tools & Technologies
 - **Database & Querying:** SQL  
@@ -16,7 +17,7 @@ We are responsible for **collecting, processing, and transforming job market dat
 - **Market Data Sources:** LinkedIn API, Glassdoor API  
 - **Collaboration:** GitHub, Trello/Jira for task tracking  
 
----
+
 
 ## 🗓️ Weekly Deliverables
 
@@ -49,7 +50,7 @@ We are responsible for **collecting, processing, and transforming job market dat
 - Finalize data models for market trend visualization.  
 - Integrate analytics dashboard with backend APIs.  
 
----
+
 
 ## 👥 Introducing Our Team: Streamline
 🔹 Alhassan Muhammed  
