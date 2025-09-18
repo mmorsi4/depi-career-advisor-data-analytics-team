@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: stg_job_postings
+    description: Transformed staging job postings table
+
+  - name: dim_company
+    description: Company dimension with unique company_id
+    columns:
+      - name: company_id
+        tests: [unique, not_null]
+
+  - name: dim_location
+    description: Location dimension split into city, governorate, country
+    columns:
+      - name: location_id
+        tests: [unique, not_null]
+
+  - name: dim_date
+    description: Posting date dimension
+    columns:
+      - name: date_id
+        tests: [unique, not_null]
+
+  - name: dim_skills
+    description: Job skills dimension
+    columns:
+      - name: skill_id
+        tests: 
+          - not_null
+      - name: skill_name
+        tests: 
+          - not_null
+      - name: skill_type
+        tests: 
+          - accepted_values:
+              values: ['Soft', 'Hard']
+
+  - name: fact_job_postings
+    description: Fact table for job postings linked to company, location, and date dimensions
+    columns:
+      - name: posting_id
+        tests: [unique, not_null]
+      - name: company_id
+        tests: [not_null, relationships: {to: ref('dim_company'), field: company_id}]
+      - name: location_id
+        tests: [not_null, relationships: {to: ref('dim_location'), field: location_id}]
+      - name: date_id
+        tests: [not_null, relationships: {to: ref('dim_date'), field: date_id}]
+
+  - name: fact_job_posting_skill
+    description: Bridge table connecting job postings and skills
+    columns:
+      - name: posting_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('fact_job_postings')
+              field: posting_id
+      - name: skill_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_skills')
+              field: skill_id
+
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: raw_job_postings

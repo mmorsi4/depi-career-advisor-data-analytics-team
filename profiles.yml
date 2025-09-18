@@ -1,0 +1,6 @@
+depi_job_postings:
+  outputs:
+    dev:
+      type: duckdb
+      path: C:/Users/Morsi/dev/depi/depi_job_postings/job_postings.duckdb
+  target: dev
