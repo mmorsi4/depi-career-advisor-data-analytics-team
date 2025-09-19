@@ -21,7 +21,7 @@ select
     md5(coalesce(city, '') || coalesce(governorate, '') || coalesce(country, '')) as location_id,
     job_url,
     job_title,
-    job_description
+    job_description,
     employment_type,
     job_flexibility
 from deduped
