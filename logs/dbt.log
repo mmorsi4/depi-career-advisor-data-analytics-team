@@ -1,0 +1,31 @@
+[0m10:32:23.696115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21ede3f410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21ee3f7bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21f027c470>]}
+
+
+============================== 10:32:23.700886 | 128b08a3-1044-43a2-8da9-4976cfe21f3a ==============================
+[0m10:32:23.700886 [info ] [MainThread]: Running with dbt=1.10.13
+[0m10:32:23.701537 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'partial_parse': 'True', 'log_path': 'logs', 'no_print': 'None', 'profiles_dir': '/home/morsi/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'empty': 'None', 'use_experimental_parser': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'debug': 'False', 'fail_fast': 'False', 'quiet': 'False', 'warn_error': 'None', 'invocation_command': 'dbt init dbt_project', 'indirect_selection': 'eager', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'log_format': 'default', 'version_check': 'True', 'printer_width': '80', 'use_colors': 'True'}
+[0m10:32:23.737915 [info ] [MainThread]: Creating dbt configuration folder at /home/morsi/.dbt
+[0m10:32:23.741721 [debug] [MainThread]: Starter project path: /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/dbt/include/starter_project
+[0m10:32:23.750027 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:32:23.750472 [info ] [MainThread]: Setting up your profile.
+[0m10:32:29.297538 [info ] [MainThread]: Profile dbt_project written to /home/morsi/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:32:29.299182 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 2.730964, "process_in_blocks": "504", "process_kernel_time": 0.227047, "process_mem_max_rss": "127708", "process_out_blocks": "72", "process_user_time": 1.737785}
+[0m10:32:29.299926 [debug] [MainThread]: Command `dbt init` succeeded at 10:32:29.299780 after 2.73 seconds
+[0m10:32:29.300576 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21edee1280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21edb2ec00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c21edc265a0>]}
+[0m10:32:29.301200 [debug] [MainThread]: Flushing usage events
+[0m10:32:30.013422 [debug] [MainThread]: An error was encountered while trying to flush usage events

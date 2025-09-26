@@ -1,0 +1,9 @@
+pandas
+spacy
+duckdb
+langdetect
+requests
+beautifulsoup4
+urllib3
+skillNer
+ipython

@@ -1,0 +1,24 @@
+{"timestamp":"2025-09-26T17:06:43.437884","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-26T17:06:43.439524","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-26T17:06:47.284914Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:47.285065Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:47.285159Z","level":"info","event":"Current task name:scrape_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:47.285211Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:47.287885Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:47.288004Z","level":"info","event":"Fetching page 1 (start=0)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:48.040981Z","level":"info","event":"Found 10 items on page 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:52.307971Z","level":"info","event":"Job 1: Customer Service Officer - Company: ALEXBANK - Location: Cairo, Egypt - Type: Full-Time - Flexibility: Remote","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:56.308315Z","level":"info","event":"Job 2: Cabin Crew - Company: Nile Air - Location: Egypt - Type: Contract - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:06:59.041936Z","level":"info","event":"Job 3: Receptionist - Company: Al Ahly Momkn - Location: Cairo, Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:03.007328Z","level":"info","event":"Job 4: Cairo Cabin Crew Opportunities (Dubai Based, Relocation Provided) - Company: Emirates - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:09.249554Z","level":"info","event":"Job 5: HR Coordinator - Company: Aujan Coca-Cola Beverages Company (ACCBC) - Location: Giza, Al Jizah, Egypt - Type: Contract - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:14.031140Z","level":"info","event":"Job 6: Finance Data Entry Specialist - Company: Aujan Coca-Cola Beverages Company (ACCBC) - Location: Giza, Al Jizah, Egypt - Type: Contract - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:18.948243Z","level":"info","event":"Job 7: Affluent & Private Clients Relationship Manager - Company: ALEXBANK - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:28.601097Z","level":"info","event":"Job 8: Area Sales Manager - Company: Juhayna Food Industries - Location: Sawhāj, Suhaj, Egypt - Type: Full-Time - Flexibility: None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:32.984327Z","level":"info","event":"Job 9: Fresh Graduate - Company: بنك التعمير والإسكان HD Bank - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:36.029308Z","level":"info","event":"Job 10: Single Skilled Craft - R&M - Company: Unilever - Location: 6th of October, Al Jizah, Egypt - Type: Full-Time - Flexibility: Hybrid","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:36.029486Z","level":"info","event":"Reached target of 10 jobs. Stopping.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:36.090365","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-26T17:07:36.122249Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:36.122387Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-26T17:07:36.122634Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_jobs>","chan":"stdout","logger":"task"}

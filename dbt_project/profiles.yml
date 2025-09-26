@@ -1,0 +1,6 @@
+dbt_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/morsi/airflow/dbt_project/job_postings.duckdb
+  target: dev
