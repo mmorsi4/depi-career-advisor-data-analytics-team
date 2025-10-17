@@ -1,0 +1,21 @@
+{"timestamp":"2025-10-04T08:51:17.842489","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-04T08:51:17.845739","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:51:23.319269Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:23.319463Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:23.319706Z","level":"info","event":"Current task name:scrape_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:23.319811Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:23.322578Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:23.322743Z","level":"info","event":"Fetching page 1 (start=0)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:25.373610Z","level":"info","event":"Found 10 items on page 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:34.809990Z","level":"info","event":"Job 1: Customer Service Officer - Company: ALEXBANK - Location: Cairo, Egypt - Type: Full-Time - Flexibility: Remote","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:51:52.573187","level":"warning","event":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError(\"HTTPSConnectionPool(host='eg.linkedin.com', port=443): Read timed out. (read timeout=15)\")': /jobs/view/receptionist-at-al-ahly-momkn-4304871524?position=2&pageNum=0&refId=86qHyjyHtQ6ZOVL4TCIElw%3D%3D&trackingId=YT2aETCRaSXHvZLxuJQmFg%3D%3D","logger":"urllib3.connectionpool"}
+{"timestamp":"2025-10-04T08:51:57.014361Z","level":"info","event":"Job 2: Receptionist - Company: Al Ahly Momkn - Location: Cairo, Cairo, Egypt - Type: Full-Time - Flexibility: None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:00.878962Z","level":"info","event":"Job 3: Cairo Cabin Crew Opportunities (Dubai Based, Relocation Provided) - Company: Emirates - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:06.516771Z","level":"info","event":"Job 4: Single skilled craft - R&M - Company: Unilever - Location: 6th of October, Al Jizah, Egypt - Type: Full-Time - Flexibility: Hybrid","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:09.449064Z","level":"info","event":"Job 5: Accountant - Company: Wadi Degla Trading & Engineering Projects - Egypro - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:14.631077Z","level":"info","event":"Job 6: Affluent & Private Clients Relationship Manager - Company: ALEXBANK - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:18.411852Z","level":"info","event":"Job 7: HR Coordinator - Company: Aujan Coca-Cola Beverages Company (ACCBC) - Location: Giza, Al Jizah, Egypt - Type: Contract - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:21.290336Z","level":"info","event":"Job 8: Finance Data Entry Specialist - Company: Aujan Coca-Cola Beverages Company (ACCBC) - Location: Giza, Al Jizah, Egypt - Type: Contract - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:26.245466Z","level":"info","event":"Job 9: Area Sales Manager - Company: Juhayna Food Industries - Location: Sawhāj, Suhaj, Egypt - Type: Full-Time - Flexibility: None","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:34.054654Z","level":"info","event":"Job 10: Fresh Graduate - Company: بنك التعمير والإسكان HD Bank - Location: Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-04T08:52:39.652458Z","level":"error","event":"Process terminated by signal","signal":-2,"signal_name":"SIGINT","logger":"task"}

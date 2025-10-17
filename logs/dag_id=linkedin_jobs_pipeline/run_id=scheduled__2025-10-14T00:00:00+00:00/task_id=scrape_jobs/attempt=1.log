@@ -1,0 +1,10 @@
+{"timestamp":"2025-10-14T07:16:50.875641","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-14T07:16:50.885840","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-14T07:17:06.606911Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:06.608202Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:06.608336Z","level":"info","event":"Current task name:scrape_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:06.608497Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:06.610009Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:06.610172Z","level":"info","event":"Fetching page 1 (start=0)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:17:24.723592","level":"warning","event":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7a060e12bd70>: Failed to resolve 'www.linkedin.com' ([Errno -3] Temporary failure in name resolution)\")': /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=&location=Egypt&start=0","logger":"urllib3.connectionpool"}
+{"timestamp":"2025-10-14T07:17:25.602898Z","level":"error","event":"Process terminated by signal","signal":-2,"signal_name":"SIGINT","logger":"task"}

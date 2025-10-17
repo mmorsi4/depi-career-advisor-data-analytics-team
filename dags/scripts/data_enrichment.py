@@ -97,7 +97,7 @@ def main_enrichment(df: pd.DataFrame):
         df.at[idx, 'hard_skills'] = ", ".join(hard_skills)
         df.at[idx, 'soft_skills'] = ", ".join(soft_skills)
 
-    conn = duckdb.connect('./job_postings.duckdb')
+    conn = duckdb.connect('/home/morsi/airflow/dbt_project/job_postings.duckdb')
     conn.register('raw_df', df)
 
     table_exists = conn.execute("""

@@ -1,0 +1,3 @@
+{"timestamp":"2025-10-04T08:51:11.395222","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:51:41.917826","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:52:12.503223","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py","logger":"airflow.models.dagbag.DagBag"}

@@ -1,0 +1,11 @@
+{"timestamp":"2025-10-16T04:52:44.176902","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-16T04:52:44.201245","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-16T04:52:51.670078Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:51.670497Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:51.670695Z","level":"info","event":"Current task name:scrape_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:51.670767Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:51.675156Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:51.675430Z","level":"info","event":"Fetching page 1 (start=0)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:52.811717Z","level":"info","event":"Found 10 items on page 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:54.007394Z","level":"info","event":"Job 1: Cairo Cabin Crew Opportunities (Dubai Based, Relocation Provided) - Company: Emirates - Location: New Cairo, Cairo, Egypt - Type: Full-Time - Flexibility: On-Site","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-16T04:52:56.916284Z","level":"error","event":"Process terminated by signal","signal":-2,"signal_name":"SIGINT","logger":"task"}

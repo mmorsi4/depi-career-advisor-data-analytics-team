@@ -1,0 +1,16 @@
+{"timestamp":"2025-10-14T07:48:01.761978","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-14T07:48:01.766762","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-14T07:48:06.136711Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:06.136878Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:06.136954Z","level":"info","event":"Current task name:enrich_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:06.137016Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:37.298343Z","level":"info","event":"loading full_matcher ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:40.436126Z","level":"info","event":"loading abv_matcher ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:40.566351Z","level":"info","event":"loading full_uni_matcher ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:42.341833Z","level":"info","event":"loading low_form_matcher ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:45.717055Z","level":"info","event":"loading token_matcher ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:48:57.752926","level":"warning","event":"[W008] Evaluating Token.similarity based on empty vectors.","category":"UserWarning","filename":"/home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/skillNer/utils.py","lineno":99,"logger":"py.warnings"}
+{"timestamp":"2025-10-14T07:49:21.557514","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-10-14T07:49:22.004940Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:49:22.005133Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-14T07:49:22.005926Z","level":"info","event":"Task operator:<Task(PythonOperator): enrich_jobs>","chan":"stdout","logger":"task"}

@@ -1,0 +1,3 @@
+{"timestamp":"2025-10-04T08:51:12.846372","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:51:43.776810","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:52:14.135452","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py","logger":"airflow.models.dagbag.DagBag"}

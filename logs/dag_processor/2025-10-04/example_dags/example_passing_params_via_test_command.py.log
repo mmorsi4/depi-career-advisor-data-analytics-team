@@ -1,0 +1,3 @@
+{"timestamp":"2025-10-04T08:51:14.468685","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:51:45.480209","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-04T08:52:16.637478","level":"info","event":"Filling up the DagBag from /home/morsi/venvs/airflow_3.0.6/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py","logger":"airflow.models.dagbag.DagBag"}
