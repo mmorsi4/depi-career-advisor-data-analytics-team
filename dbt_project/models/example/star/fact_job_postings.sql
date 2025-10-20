@@ -23,6 +23,13 @@ select
     job_title,
     job_description,
     employment_type,
-    job_flexibility
+    job_flexibility,
+    mapped_onet_title,
+    onet_score,
+    mean_salary_egp,
+    median_salary_egp,
+    p10_salary_egp,
+    p90_salary_egp,
+    salary_datapoints
 from deduped
 where rn = 1

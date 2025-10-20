@@ -11,14 +11,20 @@ import unicodedata
 from rapidfuzz import process, fuzz
 import numpy as np
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 # =======================
 # Constants & Configuration
 # =======================
-APP_ID = "a1384688"
-APP_KEY = "2bd118e1b1541d6c89c57c30c94cec53"
+APP_ID = os.getenv("APP_ID")
+APP_KEY = os.getenv("APP_KEY")
 COUNTRY = "us"
-ONET_CSV_PATH = "data/onet_job_titles.csv"
+ONET_CSV_PATH = os.path.join(BASE_DIR, "data", "onet_job_titles.csv")
 MATCH_THRESHOLD = 0  # Minimum similarity score to accept
 PPP_ADJUSTMENT_FACTOR = 0.7
 WORLD_BANK_PPP_URL = "https://api.worldbank.org/v2/country/EG/indicator/PA.NUS.PPP?format=json"
@@ -464,4 +470,3 @@ def main_scrape(job_count: int):
         df = df.reindex(columns=column_order)
 
     return df
-

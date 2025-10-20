@@ -10,12 +10,11 @@ default_args = {
     'owner': 'airflow',
     'email': ['ramygalal101@gmail.com'],
     'email_on_failure': True,
-    'email_on_retry': False,
-    'email_on_success': True
+    'email_on_retry': False
 }
 
 def scrape_task(**kwargs):
-    df = main_scrape(job_count=200)
+    df = main_scrape(job_count=5)
     kwargs['ti'].xcom_push(key='job_df', value=df.to_dict(orient='records'))
 
 def enrichment_task(**kwargs):

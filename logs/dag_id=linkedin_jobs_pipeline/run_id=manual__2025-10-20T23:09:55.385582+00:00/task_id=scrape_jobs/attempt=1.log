@@ -1,0 +1,19 @@
+{"timestamp":"2025-10-20T23:09:57.189520","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-10-20T23:09:57.190788","level":"info","event":"Filling up the DagBag from /home/morsi/airflow/dags/main_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-10-20T23:09:59.246315Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:09:59.246566Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:09:59.247410Z","level":"info","event":"Current task name:scrape_jobs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:09:59.247568Z","level":"info","event":"Dag name:linkedin_jobs_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:09:59.249441Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:09:59.249554Z","level":"info","event":"Fetching page 1 (start=0)...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:00.129179Z","level":"info","event":"Found 10 jobs on page 1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:01.441521Z","level":"info","event":"Job 1: Mobile Software Development Supervisor - Al Ahly Momkn","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:04.333824Z","level":"info","event":"Job 2: MERN Full Stack Developer - IQVIA","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:08.635131Z","level":"info","event":"Job 3: Junior Accountant - Homzmart","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:16.256171Z","level":"info","event":"Job 4: Backend Developer II - Luciq","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:22.965316Z","level":"info","event":"Job 5: Hardware Engineer - Orascom Investment Holding","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:22.966394Z","level":"info","event":"Reached target, stopping.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:35.948128","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-10-20T23:10:35.995278Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:35.995509Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-10-20T23:10:35.995964Z","level":"info","event":"Task operator:<Task(PythonOperator): scrape_jobs>","chan":"stdout","logger":"task"}

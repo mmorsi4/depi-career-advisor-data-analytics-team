@@ -32,7 +32,16 @@ cleaned as (
             else trim("job flexibility")
         end as job_flexibility,
 
+        "mapped_onet_title",
+        "onet_score",
+        "mean_salary_egp",
+        "median_salary_egp",
+        "p10_salary_egp",
+        "p90_salary_egp",
+        "salary_datapoints",
+
         current_date as posting_date,
+
         "hard_skills",
         "soft_skills",
     from loc_trim
