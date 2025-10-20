@@ -18,7 +18,7 @@ import json
 APP_ID = "a1384688"
 APP_KEY = "2bd118e1b1541d6c89c57c30c94cec53"
 COUNTRY = "us"
-ONET_CSV_PATH = "onet_job_titles.csv"
+ONET_CSV_PATH = "data/onet_job_titles.csv"
 MATCH_THRESHOLD = 0  # Minimum similarity score to accept
 PPP_ADJUSTMENT_FACTOR = 0.7
 WORLD_BANK_PPP_URL = "https://api.worldbank.org/v2/country/EG/indicator/PA.NUS.PPP?format=json"
@@ -464,3 +464,4 @@ def main_scrape(job_count: int):
         df = df.reindex(columns=column_order)
 
     return df
+
