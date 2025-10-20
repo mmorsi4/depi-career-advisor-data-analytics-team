@@ -14,7 +14,7 @@ default_args = {
 }
 
 def scrape_task(**kwargs):
-    df = main_scrape(job_count=5)
+    df = main_scrape(job_count=200)
     kwargs['ti'].xcom_push(key='job_df', value=df.to_dict(orient='records'))
 
 def enrichment_task(**kwargs):
